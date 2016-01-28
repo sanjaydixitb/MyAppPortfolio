@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="@string/heading"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button1"
+            android:text= "@string/spotifyStreamer"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorButton" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text= "@string/scoresApp"
+            android:backgroundTint="@color/colorButton"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text= "@string/libraryApp"
+            android:backgroundTint="@color/colorButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text= "@string/buildItBigger"
+            android:backgroundTint="@color/colorButton"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button5"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text= "@string/xYZReader"
+            android:backgroundTint="@color/colorButton"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text= "@string/capstone"
+            android:backgroundTint="@color/colorButtonSelected"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
